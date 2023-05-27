@@ -43,14 +43,14 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--hover-color);
+        color: var(--title-color);
         }
 
 .header-menu-link:hover {
-        color: var(--hover-color);
+        color: var(--background-color);
 }
 .header-menu-link:focus {
-        color: var(--logo-color);
+        color: var(--background-color);
 }
 .header-contakt-link {
         font-size: 16px;
