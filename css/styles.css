@@ -43,8 +43,9 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--title-color);
-}
+        color: var(--hover-color);
+        }
+
 .header-menu-link:hover {
         color: var(--hover-color);
 }
@@ -58,10 +59,10 @@ body {
         color: var(--title-color);
 }
 .header-contakt-link:hover {
-        color: var(--hover-color);
+        color: var(--background-color);
 }
 .header-contakt-link:focus {
-        color: var(--logo-color);
+        color: var(--background-color);
 }
 
 /** ----------------------------HERO-------------------- */
