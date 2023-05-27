@@ -4,23 +4,74 @@ body {
 }
 .header-logo {
         font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
+        font-style: normal;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #2E2F42;
         
-                /* identical to box height, or 117% */
-                display: flex;
-                align-items: center;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
-        
-                /* IRIS */
-                color: #4D5AE5;
-        
-        
-                /* Inside auto layout */
-                flex: none;
-                order: 0;
-                flex-grow: 0;
+}
+.header-logo span {
+        color: #4D5AE5;
+}
+a {
+        text-decoration: none;
+}
+.header-menu-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.header-menu-link:hover {
+        color: #434455;
+}
+.header-menu-link:focus {
+        color: #4D5AE5;
+}
+.header-contakt-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.header-contakt-link:hover {
+        color: #434455;
+}
+.header-contakt-link:focus {
+        color: #4D5AE5;
+}
+.hero-home {}
+
+.hero-solutions {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.hero-solutions-btn {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #4D5AE5;
+}
+.hero-solutions-btn:hover {
+        color: #FFFFFF;
+        background: #4D5AE5;
+}
+.hero-solutions-btn:focus {
+        color: #FFFFFF;
+        background: #404BBF;
 }
