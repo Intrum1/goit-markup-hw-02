@@ -223,22 +223,22 @@ body {
 }
 
 .footer-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--background-team-color);
+        color: var(--logo-color);
         
 }
 .footer-logo span {
-        color: var(--logo-color);
+        color: var(--background-team-color);
 }
 
 .footer-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: var(--background-team-color);
 }
