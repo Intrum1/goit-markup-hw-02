@@ -90,7 +90,7 @@ body {
 }
 .hero-solutions-btn:hover {
         color: var(--background-color);
-        background: var(--logo-color);
+        background: var(--background-color);
 }
 .hero-solutions-btn:focus {
         color: var(--white-title-color);
@@ -104,7 +104,7 @@ body {
 
 .hero-oport-item {}
 
-.hero-strategy {
+.hero-oport-tytle {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -112,52 +112,7 @@ body {
         color: var(--title-color);
 }
 
-.hero-strategy-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--hover-color);
-}
-
-.hero-punctuality {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
-}
-
-.hero-punctuality-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--hover-color);
-}
-
-.hero-diligence {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
-}
-
-.hero-diligence-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--hover-color);
-}
-
-.hero-technologies {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
-}
-
-.hero-technologies-text {
+.hero-oport-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
