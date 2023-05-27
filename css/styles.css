@@ -181,7 +181,7 @@ body {
 
 .hero-btn {}
 
-.hero-btn-tp {
+.btn-tp {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -190,6 +190,7 @@ body {
         color: var(--logo-color);
         background-color:var(--background-team-color);
         cursor: pointer;
+        list-style: none;
         }
 
 .hero-btn-tp:hover {
