@@ -182,19 +182,24 @@ body {
 .hero-btn {}
 
 .hero-btn-tp {
-        font-family: inherit;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--logo-color);
+        background-color:var(--background-team-color);
         cursor: pointer;
         }
 
 .hero-btn-tp:hover {
         color: var(--white-title-color);
+        background-color: var(--background-color);
 }
-
+.hero-btn-tp:focus {
+        color: var(--white-title-color);
+        background-color: var(--background-color);
+}
 
 .hero-projects {}
 
