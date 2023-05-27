@@ -56,7 +56,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--title-color);
+        color: var(--hover-color);
 }
 .header-contakt-link:hover {
         color: var(--background-color);
@@ -74,6 +74,7 @@ body {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: var(--white-title-color);
 }
 
@@ -88,7 +89,7 @@ body {
         cursor: pointer;
 }
 .hero-solutions-btn:hover {
-        color: var(--white-title-color);
+        color: var(--background-color);
         background: var(--logo-color);
 }
 .hero-solutions-btn:focus {
