@@ -194,11 +194,11 @@ body {
         cursor: pointer;
         }
 
-.hero-btn-tp:hover {
+.hero-button-portfolio:hover {
         color: var(--white-title-color);
         background-color: var(--background-color);
 }
-.hero-btn-tp:focus {
+.hero-button-portfolio:focus {
         color: var(--white-title-color);
         background-color: var(--background-color);
 }
