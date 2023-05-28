@@ -204,7 +204,7 @@ body {
 
 .hero-projects {}
 
-.hero-project-img {
+.section-item {
         background: var(--white-title-color);
 }
 
@@ -242,6 +242,9 @@ body {
         color: var(--background-team-color);
 }
 
+.footer-span {
+        
+}
 .footer-text {
         font-size: 16px;
         line-height: 1.5;
